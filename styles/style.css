@@ -1,6 +1,16 @@
 @font-face {
     font-family:"Bebas-Neue";
-    src: url(../assets/Bebas_Neue/BebasNeue-Regular.ttf);
+    src: url(../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: Courier;
+    src: url(../assets/fonts/Courier_Prime/CourierPrime-Regular.ttf);
+}
+
+@font-face {
+    font-family: Open-Sans;
+    src: url(../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
 /* reset */
@@ -17,29 +27,70 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    border: 2px solid yellow;
 }
 
 /* formatação de texto */
 
  h1 {
+     font-family: Bebas-Neue;
+     color: #ffff;
+     font-size: 96px;
+     font-weight: 400;
+     line-height: 115px;
 
+     width: 545px;
+     height: 246px;
+
+     border-bottom:1px solid #FFAF00;
  }
 
  h2 {
+     font-family: Bebas-Neue;
+     color: #FFAF00;
+     font-size: 64px;
+     font-weight: 400;
+     line-height: 77px;
 
+     width: 557px;
+     height: 154px;
+ }
+ #sobre {
+     font-family: Bebas-Neue;
+     color: #F9003D;
+     font-size: 64px;
+     font-weight: 400;
+     line-height: 77px;
+
+     width: 557px;
+     height: 154px;
  }
 
  h3 {
-
+     font-family: Courier;
+     color: #F9003D;
+     font-size: 53px;
+     font-weight: 700;
+     line-height: 60px;
+    
+     margin-top: 29px;
+     width: 544px;
+     height: 68px;
  }
 
  h4 {
-
+    font-family: Courier;
+     color: #ffff;
+     font-size: 24px;
+     font-weight: 700;
+     line-height: 27px;
  }
 
  p {
-
+     font-family: Open-Sans;
+     color: #ffff;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 25px;
  }
 
  /* cabeçalho formatação */
@@ -62,13 +113,41 @@
      display: flex;
      justify-content: space-between;
      width: 600px;
-     border: 3px solid white;
  }
 
  header nav a {
-     font-family: sans-serif;
+     font-family: Bebas-Neue;
      color: white;
      text-decoration: none;
      text-transform: uppercase;
      font-size: 18px;
+     font-weight: 400;
+     line-height: 22px;
+
+     width: 33px;
+     height: 22px;
+ }
+
+ /* section dvs */
+
+ .banner {
+    background-image: url(../images/imagem-fundo-banner\ 1.png);
+    background-size: cover;
+    height: 740px;
+    display: flex;
+    align-items: center;
+ }
+
+ .mouse-icon {
+     width: 37.31px;
+     height: 80px;
+     margin-top: 29px;
+ }
+
+ /* seção sobre */
+
+ .sobre-projetos {
+     background-color: #080324;
+     background-size:cover;
+     height: 800px;
  }
