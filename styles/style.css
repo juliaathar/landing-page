@@ -241,3 +241,25 @@
     #endereço-box {
         align-items: center;
     }
+
+    .mapa {
+        display: flex;
+        position: relative;
+        z-index: 1001;
+        left: 570px;
+        bottom: 80px;
+    }
+
+    /* footer */
+
+    footer {
+        height: 82px;
+        background-color: #F9003D;
+    }
+
+    .footer-flex {
+        height:100%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
