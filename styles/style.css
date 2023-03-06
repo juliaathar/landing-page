@@ -116,9 +116,11 @@
      display: flex;
      justify-content: flex-end;
      align-items: center;
+
      background-color: #F9003D;
+
      width: 100%;
-     height: 60;
+     height: 60px;
  }
 
  header .header-flex {
@@ -129,6 +131,7 @@
  header nav {
      display: flex;
      justify-content: space-between;
+
      width: 600px;
  }
 
@@ -150,7 +153,9 @@
  .banner {
     background-image: url(../images/imagem-fundo-banner\ 1.png);
     background-size: cover;
+
     height: 740px;
+
     display: flex;
     align-items: center;
  }
@@ -166,13 +171,19 @@
  .sobre-projetos {
      background-color: #080324;
      background-size:cover;
+
      height: 800px;
+
+     position: relative;
  }
 
  #sobre1 {
      display: flex;
      flex-direction: column;
      justify-content: space-between;
+
+     width: 491px;
+     height: 617px;
  }
 
  .img-sobre {
@@ -180,9 +191,10 @@
     height: 476px;
  }
 
- #sobre1, #sobre2 {
+#sobre1, #sobre2 {
      width: 491px;
      height: 476px;
+
      display: inline-block;
  }
 
@@ -190,15 +202,31 @@
      justify-content: flex-end;
      flex-direction: column;
      justify-content: space-between;
-     margin-left: 120px;
+
+     margin-left: 50px;
+
+     position: absolute;
+     left: 798px;
+     top: 305px;
  }
+
+ #sobre {
+    margin-top: 60px;
+ }
+
+ #participantes { 
+position: absolute;
+top: -92px;
+}
 
  /* seção adicionais */
 
  .adicionais {
      background-image: url(../images/imagem-fundo-info.png);
      background-size: cover;
+
      height: 200px;
+
      display: flex;
      align-items: center;
      justify-content: center;
@@ -207,6 +235,7 @@
  #articles{
      width: 1200px;
      height: 100px;
+
      display: flex;
      align-content: center;
      align-items: center;
@@ -218,14 +247,18 @@
  .endereço {
      background-image: url(../images/imagem-fundo-endereco.png);
      background-size: cover;
+
      height: 516px;
+
      display: flex;
      align-items: center;
+     position: relative;
     }
  
     #endereço-text {
         width: 899px;
         height: 203.36px;
+
         background-color: #010010;
         border: 2px solid #A259F7;
         color: #A259F7;
@@ -244,21 +277,24 @@
 
     .mapa {
         display: flex;
-        position: relative;
+
+        position: absolute;
         z-index: 1001;
-        left: 570px;
-        bottom: 80px;
+        right: 480px;
+        bottom: 100px;
     }
 
     /* footer */
 
     footer {
         height: 82px;
+
         background-color: #F9003D;
     }
 
     .footer-flex {
         height:100%;
+
         display: flex;
         justify-content:center;
         align-items: center;
