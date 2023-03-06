@@ -1,4 +1,4 @@
-@font-face {
+ @font-face {
     font-family:"Bebas-Neue";
     src: url(../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
 }
@@ -218,6 +218,10 @@
 position: absolute;
 top: -92px;
 }
+
+#alunos {
+    margin-bottom: 10px;
+} 
 
  /* seção adicionais */
 
