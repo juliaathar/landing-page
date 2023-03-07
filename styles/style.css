@@ -344,8 +344,9 @@ top: -92px;
             justify-content: space-around;
             align-items: center;
 
+            background-color: #F9003D; 
 
-            background-color: #F9003D;  
+            transition: left 0.2s;
         }
 
         main {
