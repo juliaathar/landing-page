@@ -13,13 +13,14 @@
     <!-- cabeçalho -->
     <header>
         <div class="layout-grid header-flex">
-            <nav>
+            <nav id="navmenu">
                 <a href="">Início</a>
                 <a href="">Sobre</a>
                 <a href="">Desafio</a>
                 <a href="">Endereço </a>
             </nav>
-            <img id="menu-mobile" src="../landing-page/assets/icons/menu-hamburguer.svg" alt="">
+            <img id="mobile" src="../landing-page/assets/icons/menu-hamburguer.svg" alt="abre o menu mobile"
+                onclick="mostramenu()">
         </div>
     </header>
     <main>
@@ -51,7 +52,9 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, voluptatum. Deserunt pariatur
                         labore architecto asperiores magnam odit veritatis voluptate, autem tempore eius harum minima
                         optio illum incidunt rem adipisci sint?</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quasi itaque cupiditate praesentium ratione, aut sunt aspernatur nulla neque vel provident id laboriosam officiis delectus consectetur, fugiat nesciunt sint at!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quasi itaque cupiditate
+                        praesentium ratione, aut sunt aspernatur nulla neque vel provident id laboriosam officiis
+                        delectus consectetur, fugiat nesciunt sint at!</p>
                 </div>
             </div>
         </section>
@@ -86,7 +89,7 @@
                     <p id="endereço-text">Alameda Barão de Limeira, 539 <br>
                         Santa Cecilia, São Paulo - SP <br>
                         CEP: 01202-001</p>
-                        <img class="mapa" src="../landing-page/images/mapa.png" alt="">
+                    <img class="mapa" src="../landing-page/images/mapa.png" alt="">
                 </div>
             </div>
         </section>
@@ -98,6 +101,12 @@
             <p>Copyright © 2020 - Escola Senai de Informática</p>
         </div>
     </footer>
+
+    <script>
+        function mostramenu() {
+            document.getElementById("navmenu").classList.toggle("mostramenu");
+        }
+    </script>
 
 </body>
 
